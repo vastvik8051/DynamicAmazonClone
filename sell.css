@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaeded;
+}
+
+/* HERO */
+.sell-hero {
+    background: #131921;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.sell-hero button {
+    padding: 12px 25px;
+    margin-top: 10px;
+    background: #febd69;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+/* BENEFITS */
+.benefits {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    color: black;
+}
+
+.card {
+    background: #f7f7f7;
+    padding: 25px;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+}
+
+/* HOW IT WORKS */
+.how-it-works {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.steps {
+    display: flex;
+    gap: 15px;
+    color: black;
+}
+
+.step {
+    flex: 1;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 6px;
+    color: black;
+}
+
+/* TOOLS */
+.tools {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    color: black;
+}
+
+.tool {
+    background: #fff3cd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+}
+
+/* CTA */
+.cta {
+    background: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.cta button {
+    padding: 12px 25px;
+    border: none;
+    background: #febd69;
+    cursor: pointer;
+    color: black;
+}

@@ -1,0 +1,104 @@
+.signin-page{
+    min-height:100vh;
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:30px 20px;
+}
+
+.signin-box{
+    width:350px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:25px;
+}
+
+.signin-box img{
+    width:120px;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.signin-box h1{
+    font-size:32px;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.signin-box form{
+    display:flex;
+    flex-direction:column;
+}
+
+.signin-box label{
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.signin-box input{
+    padding:10px;
+    border:1px solid #888c8c;
+    border-radius:4px;
+    margin-bottom:20px;
+    outline:none;
+}
+
+.signin-box input:focus{
+    border-color:#007185;
+}
+
+.signin-box button{
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    background:#ffd814;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.terms{
+    font-size:12px;
+    margin:20px 0;
+    line-height:1.5;
+}
+
+.help a,
+.business a{
+    color:#0066c0;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.divider{
+    height:1px;
+    background:#ddd;
+    margin:25px 0;
+}
+
+.business h4{
+    margin-bottom:5px;
+    font-size:14px;
+}
+
+.new-account{
+    width:350px;
+    margin-top:25px;
+    text-align:center;
+}
+
+.new-account p{
+    font-size:12px;
+    color:#565959;
+    margin-bottom:10px;
+}
+
+.new-account button{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    background:#fff;
+    border-radius:20px;
+    cursor:pointer;
+}

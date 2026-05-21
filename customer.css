@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaeded;
+}
+
+/* HERO */
+.cs-hero {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+    color: black;
+}
+
+.cs-hero input {
+    width: 60%;
+    padding: 12px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+/* QUICK ACTIONS */
+.quick-actions {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    
+}
+
+.box {
+    background: #f7f7f7;
+    padding: 25px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+/* HELP TOPICS */
+.help-topics {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    color: black;
+}
+
+.topic {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 6px;
+    color: black;
+}
+
+/* SUPPORT SECTION */
+.support {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+.support button {
+    padding: 10px 20px;
+    border: none;
+    background: #febd69;
+    cursor: pointer;
+    color: black;
+}

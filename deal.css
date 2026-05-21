@@ -1,0 +1,372 @@
+/* =========================
+   AMAZON DEAL PAGE STYLE
+========================= */
+
+body{
+    background:#eaeded;
+}
+
+/* =========================
+   TOP BANNER
+========================= */
+
+.deal-banner{
+    width:100%;
+    background:#fff;
+}
+
+.deal-banner img{
+    width:100%;
+    display:block;
+    object-fit:cover;
+}
+
+/* =========================
+   COMMON CONTAINER
+========================= */
+
+.shop-category,
+.featured-deals,
+.deal-tabs,
+.main-deals{
+    max-width:1500px;
+    margin:auto;
+}
+
+/* =========================
+   CATEGORY SECTION
+========================= */
+
+.shop-category{
+    background:#fff;
+    padding:30px 25px;
+    margin-top:20px;
+}
+
+.shop-category h2{
+    color:#0f1111;
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.category-slider{
+    display:flex;
+    gap:18px;
+    overflow-x:auto;
+    scrollbar-width:none;
+}
+
+.category-slider::-webkit-scrollbar{
+    display:none;
+}
+
+.category-card{
+    min-width:180px;
+    background:#f7f8f8;
+    border:1px solid #e3e6e6;
+    border-radius:12px;
+    padding:20px;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+.category-card:hover{
+    box-shadow:0 2px 10px rgba(0,0,0,0.12);
+}
+
+.category-card img{
+    width:100%;
+    height:130px;
+    object-fit:contain;
+}
+
+.category-card p{
+    color:#0f1111;
+    font-size:15px;
+    margin-top:15px;
+    font-weight:600;
+    text-align:center;
+}
+
+/* =========================
+   FEATURED DEALS
+========================= */
+
+.featured-deals{
+    background:#fff;
+    margin-top:20px;
+    padding:30px 25px;
+}
+
+.featured-deals h2{
+    color:#0f1111;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.featured-slider{
+    display:flex;
+    gap:18px;
+    overflow-x:auto;
+    scrollbar-width:none;
+}
+
+.featured-slider::-webkit-scrollbar{
+    display:none;
+}
+
+.featured-card{
+    min-width:280px;
+    background:#fff;
+    border:1px solid #e3e6e6;
+    padding:18px;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+.featured-card:hover{
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+.featured-card img{
+    width:100%;
+    height:260px;
+    object-fit:contain;
+}
+
+/* =========================
+   TABS
+========================= */
+
+.deal-tabs{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    overflow-x:auto;
+    scrollbar-width:none;
+
+    background:#fff;
+    margin-top:20px;
+    padding:20px 25px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+.deal-tabs::-webkit-scrollbar{
+    display:none;
+}
+
+.deal-tabs button{
+    white-space:nowrap;
+    border:none;
+    background:#f0f2f2;
+    color:#0f1111;
+
+    padding:10px 18px;
+    border-radius:20px;
+
+    font-size:14px;
+    font-weight:500;
+
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.deal-tabs button:hover{
+    background:#d5dbdb;
+}
+
+/* =========================
+   MAIN SECTION
+========================= */
+
+.main-deals{
+    display:flex;
+    align-items:flex-start;
+    gap:25px;
+
+    padding:25px;
+    margin-top:20px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.deal-sidebar{
+    width:240px;
+    background:#fff;
+
+    padding:22px;
+    border:1px solid #ddd;
+
+    position:sticky;
+    top:10px;
+}
+
+.filter-box{
+    margin-bottom:35px;
+}
+
+.filter-box h3{
+    color:#0f1111;
+    font-size:18px;
+    margin-bottom:14px;
+}
+
+.filter-box p{
+    color:#565959;
+    font-size:14px;
+    margin-bottom:12px;
+    cursor:pointer;
+}
+
+.filter-box p:hover{
+    color:#c7511f;
+}
+
+/* =========================
+   PRODUCT GRID
+========================= */
+
+.products-grid{
+    flex:1;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+}
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.product-card{
+    background:#fff;
+
+    border:1px solid #e3e6e6;
+
+    padding:18px;
+
+    transition:0.2s;
+    cursor:pointer;
+}
+
+.product-card:hover{
+    box-shadow:0 2px 12px rgba(0,0,0,0.15);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+    padding-right: 70px;
+}
+
+/* =========================
+   DISCOUNT
+========================= */
+
+.product-discount{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    margin-top:14px;
+}
+
+.product-discount span{
+    background:#cc0c39;
+    color:#fff;
+
+    font-size:12px;
+    font-weight:700;
+
+    padding:5px 8px;
+    border-radius:3px;
+}
+
+.product-discount p{
+    color:#cc0c39;
+    font-size:13px;
+    font-weight:700;
+}
+
+/* =========================
+   PRODUCT TITLE
+========================= */
+
+.product-card h4{
+    color:#0f1111;
+
+    font-size:16px;
+    font-weight:500;
+    line-height:22px;
+
+    margin-top:12px;
+
+    height:45px;
+    overflow:hidden;
+}
+
+/* =========================
+   PRICE
+========================= */
+
+.product-price{
+    color:#0f1111;
+
+    font-size:28px;
+    font-weight:500;
+
+    margin-top:10px;
+}
+
+/* =========================
+   SHOP LINK
+========================= */
+
+.product-card a{
+    display:inline-block;
+
+    margin-top:14px;
+
+    color:#2162a1;
+    font-size:14px;
+}
+
+.product-card a:hover{
+    color:#c7511f;
+    text-decoration:underline;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    margin-top:30px;
+}
+
+/* =========================
+   DESKTOP ONLY
+========================= */
+
+@media(max-width:1400px){
+
+    .products-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+}
+
+@media(max-width:1100px){
+
+    .products-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}

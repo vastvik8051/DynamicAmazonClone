@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaeded;
+}
+
+/* HEADER SECTION */
+.gift-header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.gift-header h1 {
+    margin: 0;
+    color: black;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #232f3e, #37475a);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background: #febd69;
+    cursor: pointer;
+    color: black;
+}
+
+/* CATEGORY GRID */
+.categories {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    color: black;
+}
+
+.card {
+    background: #f7f7f7;
+    padding: 30px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+}
+
+/* TYPES */
+.gift-types {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.types {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.type-box {
+    flex: 1;
+    min-width: 150px;
+    background: #f1f1f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+}
+
+/* DEAL STRIP */
+.deal-strip {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.deal-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.deal {
+    flex: 1;
+    min-width: 200px;
+    background: #fff3cd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+}
